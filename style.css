@@ -1,8 +1,7 @@
 .grid-container {
     display: flex;
-    grid-column-gap:20px;
-    grid-template-columns: 350px 350px 350px;
-    padding: 140px;    
+    justify-content: center;
+    padding: 100px;    
     background-color: rgb(0, 0, 0);
   }
 
@@ -30,9 +29,9 @@
 } 
 .rodape{
   position: relative;
-  left:10%;
-  display: grid;
-  grid-column-gap:0px;
-  grid-template-columns: auto auto auto;
-  padding: 0px;    
+  display: flex;
+  justify-content: center; 
+}
+.rodape > div{
+  margin-left: 40px;   
 }
