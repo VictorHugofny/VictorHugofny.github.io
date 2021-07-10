@@ -1,6 +1,6 @@
 
 #rodape > div{
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(42, 42, 42);
   padding: 0px;
 }
 .grid-container {
@@ -25,11 +25,11 @@
     text-align: center;
   }
   .grid-container > div > h1{
-    font-size: 50px;
+    font-size: 40px;
     color:rgb(255, 255, 255);
   }
   .grid-container > div > p{
-    font-size: 30px;
+    font-size: 25px;
     color:rgb(182, 182, 182);
   }
   .grid-container > div > img{
