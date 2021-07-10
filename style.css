@@ -2,6 +2,7 @@
 #rodape > div{
   background-color: rgb(42, 42, 42);
   padding: 0px;
+  width: 100%;
 }
 .grid-container {
     width: 100%;
@@ -10,12 +11,15 @@
     background-color: rgb(0, 0, 0);
   }
   .coder {
+    width: 100%;
     background-image: url("/img/github.png");
   }
   .coder2 {
+    width: 100%;
     background-image: url("/img/covid19.png");
   }
   .coder3 {
+    width: 100%;
     background-image: url("/img/galeria\ animes.png");
   }
   .grid-container > div{
@@ -41,21 +45,7 @@
   #img_circular {
     border-radius: 200px
 } 
-.rodape{
-  width: 95%;
-  position: relative;
-  display: flex;
-  justify-content: center; 
-}
-.rodape > div{
-  margin-left: 30px;   
-}
-.rodape > img{
-  size: 5%; 
-}
-head{
-  display: none;
-}
+
 h3{
   font-size: 40px;
   
