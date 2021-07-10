@@ -2,6 +2,9 @@ body{
   margin: 0%;
   background-color: black;
 }
+#cinza{
+  background-color: aqua;
+}
 #rodape > div{
   background-color: rgb(42, 42, 42);
   padding: 0px;
