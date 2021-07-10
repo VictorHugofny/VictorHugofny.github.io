@@ -6,19 +6,16 @@
   }
   .coder {
     background-image: url("/img/github.png");
-    background-repeat: no-repeat;
   }
   .coder2 {
     background-image: url("/img/covid19.png");
-    background-repeat: no-repeat;
   }
   .coder3 {
     background-image: url("/img/galeria\ animes.png");
-    background-repeat: no-repeat;
   }
   .grid-container > div{
     background-color: rgba(0, 0, 0, 0.424);
-    padding: 5%;
+    padding: 2%;
     width: 100%;
     text-align: center;
   }
@@ -59,4 +56,7 @@ h4{
   background-color:rgba(0, 0, 0, 0.274);
   color: aliceblue;
   font-size: 25px;
+}
+.grid-container > div:hover{
+  background:rgba(255, 255, 255, 0.109);
 }
