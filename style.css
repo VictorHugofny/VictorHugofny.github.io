@@ -25,7 +25,7 @@
     color:rgb(255, 255, 255);
   }
   .grid-container > div > p{
-    font-size: 30px;
+    font-size: 28px;
     color:rgb(182, 182, 182);
   }
   .grid-container > div > img{
@@ -43,7 +43,7 @@
   justify-content: center; 
 }
 .rodape > div{
-  margin-left: 70px;   
+  margin-left: 30px;   
 }
 head{
   display: none;
