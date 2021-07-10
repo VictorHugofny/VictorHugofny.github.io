@@ -25,14 +25,13 @@
     color:rgb(255, 255, 255);
   }
   .grid-container > div > p{
-    font-size: 20px;
+    font-size: 40px;
     color:rgb(182, 182, 182);
   }
   .grid-container > div > img{
     position: relative;
-    left:10%;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
   }
   #img_circular {
