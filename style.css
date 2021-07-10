@@ -1,5 +1,6 @@
 body{
   margin: 0%;
+  background-color: black;
 }
 #rodape > div{
   background-color: rgb(42, 42, 42);
@@ -74,10 +75,10 @@ h4{
 }
 
 .grid-container2 {
-  width: 100%;
+  width: 90%;
+  position: center;
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(255, 255, 255);
 }
 .grid-container2 > div{
   background-color: rgba(255, 255, 255, 0.424);
