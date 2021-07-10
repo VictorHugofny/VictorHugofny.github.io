@@ -13,14 +13,18 @@
   .coder {
     width: 100%;
     background-image: url("/img/github.png");
+
   }
   .coder2 {
     width: 100%;
     background-image: url("/img/covid19.png");
+
   }
   .coder3 {
     width: 100%;
     background-image: url("/img/galeria\ animes.png");
+ 
+
   }
   .grid-container > div{
     background-color: rgba(0, 0, 0, 0.424);
@@ -58,9 +62,24 @@ h4{
 }
 
 .grid-container > div:hover{
-  background:rgb(24, 24, 24);
+  background:rgb(44, 44, 44);
+}
+.grid-container2 > div:hover{
+  background-size: 200%;
 }
 *{
   text-decoration: none;
 }
 
+.grid-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+}
+.grid-container2 > div{
+  background-color: rgba(255, 255, 255, 0.424);
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+}
