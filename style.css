@@ -6,13 +6,15 @@
   }
   .coder {
     background-image: url("/img/github.png");
+    background-repeat: no-repeat;
   }
   .coder2 {
     background-image: url("/img/covid19.png");
-
+    background-repeat: no-repeat;
   }
   .coder3 {
     background-image: url("/img/galeria\ animes.png");
+    background-repeat: no-repeat;
   }
   .grid-container > div{
     background-color: rgba(0, 0, 0, 0.424);
