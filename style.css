@@ -69,13 +69,12 @@ h4{
 }
 
 .grid-container > div:hover{
-  background:rgb(32, 32, 32);
-  zoom: 107%;
-  border: 0.3px solid rgb(255, 255, 255);
+  background:rgb(7, 7, 7);
+  zoom: 101%;
 }
 .grid-container2 > div:hover{
   background-size: 140%;
-  zoom: 140%;
+  zoom: 120%;
   border: 5px solid rgb(255, 255, 255);
 }
 
@@ -94,4 +93,14 @@ h4{
   padding: 2%;
   width: 100%;
   text-align: center;
+}
+::-webkit-scrollbar-track {
+  background-color: #adadad;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #a3a3a3;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
 }
