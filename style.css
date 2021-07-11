@@ -69,8 +69,8 @@ h4{
 }
 
 .grid-container > div:hover{
-  background:rgb(44, 44, 44);
-  zoom: 110%;
+  background:rgb(32, 32, 32);
+  zoom: 105%;
   border: 0.3px solid rgb(255, 255, 255);
 }
 .grid-container2 > div:hover{
