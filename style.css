@@ -39,10 +39,11 @@ body{
     text-align: center;
   }
   .grid-container > div > h1{
-    font-size: 40px;
+    font-size: 45px;
     color:rgb(255, 255, 255);
   }
   .grid-container > div > p{
+    width: 100%;
     font-size: 25px;
     color:rgb(182, 182, 182);
   }
@@ -69,10 +70,15 @@ h4{
 
 .grid-container > div:hover{
   background:rgb(44, 44, 44);
+  zoom: 110%;
+  border: 0.3px solid rgb(255, 255, 255);
 }
 .grid-container2 > div:hover{
-  background-size: 200%;
+  background-size: 140%;
+  zoom: 140%;
+  border: 5px solid rgb(255, 255, 255);
 }
+
 *{
   text-decoration: none;
 }
