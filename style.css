@@ -77,7 +77,9 @@ h4{
   zoom: 120%;
   border: 5px solid rgb(255, 255, 255);
 }
-
+#rodape > div:hover{
+  border: 2px solid rgb(255, 255, 255);  
+}
 *{
   text-decoration: none;
 }
