@@ -28,11 +28,9 @@ body{
   margin: 0%;
   background-color: rgb(0, 0, 0);
 }
-#cinza{
-  background-color: aqua;
-}
+
 #rodape > div{
-  background-color: rgb(42, 42, 42);
+  background-color: rgb(41, 41, 41);
   padding: 0px;
   width: 100%;
 }
@@ -46,18 +44,14 @@ body{
   .coder {
     width: 100%;
     background-image: url("/img/github.png");
-
   }
   .coder2 {
     width: 100%;
     background-image: url("/img/covid19.png");
-
   }
   .coder3 {
     width: 100%;
     background-image: url("/img/galeria\ animes.png");
- 
-
   }
   .grid-container > div{
     background-color: rgba(0, 0, 0, 0.424);
@@ -89,7 +83,7 @@ body{
 }
 .grid-container2 > div:hover{
   zoom: 100%;
-  border: 5px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
 }
 #rodape > div:hover{
   border: 1px solid rgb(255, 255, 255);  
@@ -105,7 +99,6 @@ body{
   justify-content: flex-start;
 }
 .grid-container2 > div{
-  background-color: rgba(255, 255, 255, 0.424);
   padding: 2%;
   width: 100%;
   text-align: center;
@@ -119,4 +112,44 @@ body{
 }
 ::-webkit-scrollbar-thumb {
   background: #000000;
+}
+.canal {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-image: url("/img/canal.png") ;
+  background-repeat: repeat-y;
+}
+.coder4 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/wallpaper.jpg);
+}
+.coder5 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/wallpaper2.png);
+}
+.coder6 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/banner-curso-html-css.jpg);
+}
+
+.grid-container3{
+  background-color: rgb(26, 26, 26);
+  padding: 1%;
+  
+  width: 100%;
+  text-align: center;
+  color:aliceblue;
+}
+.grid-container3 > .flex-links {
+  font-size: 20px;
+  margin:0%;
+  margin-left: 40px;
+  display: inline-grid;
+  margin-right: 1%;
+}
+.flex-links > a{
+  font-family: sans-serif;
+  margin: 1%;
+  color:aliceblue;
 }
