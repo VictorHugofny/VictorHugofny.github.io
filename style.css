@@ -143,6 +143,7 @@ body{
   width: 100%;
   text-align: center;
   color:aliceblue;
+  z-index: 1;
 }
 .grid-container3 > .flex-links {
   font-size: 15px;
