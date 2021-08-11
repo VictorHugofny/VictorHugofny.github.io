@@ -1,13 +1,16 @@
 h1{
   font-family:sans-serif;
+  
 }
 h3{
+  
   font-family:sans-serif;
   font-size: 40px;
   
   color: rgb(255, 255, 255);
 }
 h4{
+
   font-family:sans-serif;
   position: relative;
   width: 20%;
@@ -36,9 +39,12 @@ body{
 }
 
 .grid-container {
+    width: 50%;
+    align-content: center;
+    flex-wrap: nowrap;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: rgb(0, 0, 0);
   }
   .coder {
