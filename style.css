@@ -138,6 +138,10 @@ body{
   background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
     url(./img/banner-curso-html-css.jpg);
 }
+.coder7 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/28150241823181.jpg);
+}
 
 .grid-container3{
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
