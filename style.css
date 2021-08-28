@@ -1,3 +1,6 @@
+:root{
+  --teste: rgb(41, 41, 41);
+}
 h1{
   font-family:sans-serif;
   
@@ -22,13 +25,14 @@ h4{
 }
 p{
   font-family:sans-serif;
+
 }
 
 .coder{
   background-image: url(/img/gifwallpaper.gif);
 }
 body{
-  font-size:62.5%;
+  
   margin: 0%;
   background-color: rgb(0, 0, 0);
 }
@@ -40,7 +44,7 @@ body > a{
 }
 
 #rodape > div{
-  background-color: rgb(41, 41, 41);
+  background-color: var(--teste);
   padding: 0px;
   width: 100%;
 }
@@ -76,12 +80,16 @@ body > a{
     font-size: 45px;
     color:rgb(255, 255, 255);
   }
-  .grid-container > div > p{
-    width: 100%;
-    font-size: 25px;
+  .grid-container2 > div > h1{
+    font-size: 45px;
+    color:rgb(255, 255, 255);
+  }
+
+  .grid-container2 > div > p{
+    font-size: 22px;
     color:rgb(182, 182, 182);
   }
-  .grid-container > div > img{
+  .grid-container2 > div > img{
     position: relative;
     width: 200px;
     height: 200px;
@@ -96,35 +104,34 @@ body > a{
 }
 .grid-container2 > div:hover{
   zoom: 100%;
-  border: 1px solid rgb(255, 255, 255);
 }
 #rodape > div:hover{
   border: 1px solid rgb(255, 255, 255);  
 }
-*{
-  text-decoration: none;
-}
+
 
 .grid-container2 {
   width: 100%;
   position: center;
   display: flex;
-  justify-content: flex-start;
+  justify-content:flex-start;
+  flex-direction: column;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 .grid-container2 > div{
-  padding: 2%;
   width: 100%;
   text-align: center;
 }
 ::-webkit-scrollbar-track {
-  background-color: #adadad;
+  background-color: var(--teste);
 }
 ::-webkit-scrollbar {
   width: 6px;
-  background: #a3a3a3;
+  background: var(--teste);
 }
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #ffffff;
 }
 .canal {
   text-align: center;
@@ -154,12 +161,14 @@ body > a{
   url(./img/amd\ vs\ ryzen.jpg);
   background-size: 100%;
 }
+
 .grid-container3{
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
   background-color: rgb(0, 0, 0);
-  padding: 1%;
   height: 50%;
   width: 100%;
   text-align: center;
@@ -167,15 +176,17 @@ body > a{
   z-index: 1;
 }
 .grid-container3 > .flex-links {
-  font-size: 1.5em;
-  height: 50%;
-  margin:0%;
-  margin-left: 20px;
+  
+  margin-left: 30px;
   display: inline-grid;
-  margin-right: 1%;
 }
-.flex-links > a{
+.flex-links, .flex-links :visited {
   font-family: sans-serif;
-  margin: 1%;
   color:aliceblue;
+  
+}
+
+* {
+  font-size: 1.8vw;
+  text-decoration: none;
 }
