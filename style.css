@@ -5,6 +5,9 @@ h1{
   font-family:sans-serif;
   
 }
+h2{
+  margin:15px;
+}
 h3{
   
   font-family:sans-serif;
@@ -16,29 +19,22 @@ h4{
 
   font-family:sans-serif;
   position: relative;
-  width: 20%;
-  margin-left: 40%;
-  background-color: rgba(0, 0, 0, 0.616);
-  color: aliceblue;
-  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.363);
+  font-size: 28px;
   text-align: center;
 }
 p{
   font-family:sans-serif;
-
 }
 
-.coder{
-  background-image: url(/img/gifwallpaper.gif);
-}
+
 body{
-  
   margin: 0%;
   background-color: rgb(0, 0, 0);
 }
 body > a{
   font-size:62.5%;
-  font-size:1.6em;
   margin: 0%;
   background-color: rgb(0, 0, 0);
 }
@@ -50,36 +46,17 @@ body > a{
 }
 
 .grid-container {
-    width: 50%;
     align-content: center;
     flex-wrap: nowrap;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-  }
-  .coder {
-    width: 100%;
-    background-image: url("/img/github.png");
-  }
-  .coder2 {
-    width: 100%;
-    background-image: url("/img/covid19.png");
-  }
-  .coder3 {
-    width: 100%;
-    background-image: url("/img/galeria\ animes.png");
-  }
-  .grid-container > div{
-    background-color: rgba(0, 0, 0, 0.424);
-    padding: 2%;
-    width: 100%;
     text-align: center;
   }
-  .grid-container > div > h1{
-    font-size: 45px;
-    color:rgb(255, 255, 255);
-  }
+ 
+
+ 
   .grid-container2 > div > h1{
     font-size: 45px;
     color:rgb(255, 255, 255);
@@ -96,15 +73,9 @@ body > a{
     display: inline-block;
   }
   #img_circular {
-    border-radius: 200px
+    border-radius: 100px
 } 
 
-.grid-container > div:hover{
-  background:rgb(24, 24, 24);
-}
-.grid-container2 > div:hover{
-  zoom: 100%;
-}
 #rodape > div:hover{
   border: 1px solid rgb(255, 255, 255);  
 }
@@ -140,31 +111,11 @@ body > a{
   background-image: url("/img/canal.png") ;
   background-repeat: repeat-y;
 }
-.coder4 {
-  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
-    url(./img/wallpaper.jpg);
-}
-.coder5 {
-  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
-    url(./img/wallpaper2.png);
-}
-.coder6 {
-  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
-    url(./img/banner-curso-html-css.jpg);
-}
-.coder7 {
-  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
-    url(./img/28150241823181.jpg);
-}
-.coder8 {
-  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
-  url(./img/amd\ vs\ ryzen.jpg);
-  background-size: 100%;
-}
+
 
 .grid-container3{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: -webkit-sticky; /* Necessário para funcionar no Safari */
   position: sticky;
   top: 0;
@@ -183,10 +134,92 @@ body > a{
 .flex-links, .flex-links :visited {
   font-family: sans-serif;
   color:aliceblue;
+}
+.flex-links > a{
+  color:#f0f8ff;
+  text-decoration: none;
   
 }
+a{font-size: 20px;}
 
-* {
-  font-size: 1.8vw;
+*{
   text-decoration: none;
 }
+
+.coder {
+  height: 20%;
+  background-image: url("/img/github.png");
+}
+.coder2 {
+  height: 20%;
+  background-image: url("/img/covid19.png");
+}
+.coder3 {
+  height: 20%;
+  background-image: url("/img/galeria\ animes.png");
+}
+.coder4 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/wallpaper.jpg);
+}
+.coder5 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/wallpaper2.png);
+}
+.coder6 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/banner-curso-html-css.jpg);
+  
+}
+.coder7 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+    url(./img/28150241823181.jpg);
+}
+.coder8 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+  url(./img/amd\ vs\ ryzen.jpg);
+  background-size: 100%;
+}
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.container4 > div {
+  border-radius: 10px;
+  margin: 2px;
+  flex: 1 1 40%;
+  height: 250px;
+  text-align: center;
+  font-size: 50px;
+  border: var(--teste) solid 5px;
+}
+
+@media(max-width: 800px){
+  a{
+      font-size: 18px;
+  }
+}
+
+@media(max-width: 550px){
+  a{
+      font-size: 16px;
+  }
+}
+
+@media(max-width: 380px){
+  a{
+    font-size: 14px;
+  }
+}
+@media(max-width: 340px){
+  a{
+      font-size: 10px;
+  }
+}
+@media(max-width: 290px){
+  a{
+      font-size: 8px;
+  }
+}
+    
