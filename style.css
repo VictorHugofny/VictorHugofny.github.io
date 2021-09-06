@@ -1,6 +1,13 @@
 :root{
   --teste: rgb(41, 41, 41);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+:target {
+  scroll-margin-top: .8em;
+}
 h1{
   font-family:sans-serif;
   
@@ -226,3 +233,10 @@ a{font-size: 20px;}
   }
 }
     
+#pix img:hover{
+  width: 320px;;
+  height: 320px;
+  border: 5px solid rgb(255, 0, 0);
+  background: #ccc;
+  text-align: center;
+}
