@@ -88,7 +88,7 @@ body > a{
 } 
 
 #rodape > div:hover{
-  border: 1px solid rgb(255, 255, 255);  
+  background-color: rgb(54, 54, 54);
 }
 
 
@@ -254,7 +254,6 @@ a{font-size: 20px;}
   }
 }
     
-
 .coder h3{
 background-color: rgba(0, 0, 0, 0.459);
 margin-bottom: 0%;
