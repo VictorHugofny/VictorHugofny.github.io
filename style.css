@@ -36,6 +36,7 @@ p{
   font-family:sans-serif;
   margin-left: 30px;
   margin-right: 30px;
+  text-align: center;
 }
 
 
@@ -225,21 +226,31 @@ a{font-size: 20px;}
   a{
       font-size: 16px;
   }
+
 }
 
 @media(max-width: 380px){
   a{
     font-size: 14px;
   }
+  p{
+    text-align: justify;
+  }
 }
 @media(max-width: 340px){
   a{
       font-size: 10px;
   }
+  p{
+    text-align: justify;
+  }
 }
 @media(max-width: 290px){
   a{
       font-size: 8px;
+  }
+  p{
+    text-align: justify;
   }
 }
     
