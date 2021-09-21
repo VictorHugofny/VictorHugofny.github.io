@@ -195,6 +195,11 @@ a{font-size: 20px;}
   url(./img/amd\ vs\ ryzen.jpg);
   background-size: 100%;
 }
+.coder2 {
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+  url(./img/fotorpg);
+  background-size: 100%;
+}
 .container4{
   display: flex;
   flex-wrap: wrap;
@@ -238,13 +243,7 @@ a{font-size: 20px;}
   }
 }
     
-#pix img:hover{
-  width: 320px;;
-  height: 320px;
-  border: 5px solid rgb(255, 0, 0);
-  background: #ccc;
-  text-align: center;
-}
+
 .coder h3{
 background-color: rgba(0, 0, 0, 0.459);
 margin-bottom: 0%;
