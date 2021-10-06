@@ -201,6 +201,11 @@ a{font-size: 20px;}
   url(./img/fotorpg);
   background-size: 100%;
 }
+.coder9 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.75)),
+  url(./img/CLONES.jpg);
+  background-size: 100%;
+}
 .container4{
   display: flex;
   flex-wrap: wrap;
