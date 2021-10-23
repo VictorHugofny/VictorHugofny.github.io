@@ -170,6 +170,12 @@ a{font-size: 20px;}
   height: 20%;
   background-image: url("/img/covid19.png");
 }
+.coder10 {
+  height: 20%;
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+  url(./img/pokedex.jpg);
+}
+
 .coder3 {
   height: 20%;
   background-image: url("/img/galeria\ animes.png");
