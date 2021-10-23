@@ -175,6 +175,11 @@ a{font-size: 20px;}
   background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
   url(./img/pokedex.jpg);
 }
+.coder11 {
+  height: 20%;
+  background-image: linear-gradient(to bottom, rgb(30, 29, 42), rgba(0, 0, 0, 0.750)),
+  url(./img/RPGVUE.jpg);
+}
 
 .coder3 {
   height: 20%;
